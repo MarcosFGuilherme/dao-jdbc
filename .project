@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<projectDescription>
+	<name>Course_75_dao_JDBC</name>
+	<comment></comment>
+	<projects>
+	</projects>
+	<buildSpec>
+		<buildCommand>
+			<name>org.eclipse.jdt.core.javabuilder</name>
+			<arguments>
+			</arguments>
+		</buildCommand>
+	</buildSpec>
+	<natures>
+		<nature>org.eclipse.jdt.core.javanature</nature>
+	</natures>
+	<linkedResources>
+		<link>
+			<name>db.properties</name>
+			<type>1</type>
+			<location>C:/Users/User/Documents/Marcos/Desenvolvimento/ws-eclipse/Course_76_jdbc2/db.properties</location>
+		</link>
+	</linkedResources>
+</projectDescription>
