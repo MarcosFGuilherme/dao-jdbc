@@ -23,6 +23,13 @@ public class Program {
 		for (Seller s : list) {
 			System.out.println(s);
 		}
+		
+		System.out.println("=== Teste number Tree : seller findAll ===");
+		list = sellerDao.findAll(); 
+		for (Seller s : list) {
+			System.out.println(s);
+		}
+		
 	}
 
 }
