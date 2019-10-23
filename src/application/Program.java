@@ -32,10 +32,18 @@ public class Program {
 			System.out.println(s);
 		}
 		
-		System.out.println("=== Teste number Tree : seller insert ===");
-		Seller newSeller = new Seller(null, "Greg", "greg@gmail.com", new Date(), 4000.0, department);
-		sellerDao.insert(newSeller);
-		System.out.println("Inserted! new id = " + newSeller.getId());
+		//System.out.println("=== Teste number Four : seller insert ===");
+		//Seller newSeller = new Seller(null, "Greg", "greg@gmail.com", new Date(), 4000.0, department);
+		//sellerDao.insert(newSeller);
+		//System.out.println("Inserted! new id = " + newSeller.getId());
+		
+		System.out.println("=== Teste number Five : seller update ===");
+		seller = sellerDao.findById(1);
+		seller.setName("Martha Waine");
+		seller.setEmail("martha@gmail.com");
+		seller.setBaseSalary(5200.0);
+		sellerDao.update(seller);
+		System.out.println("Update completed!");
 		
 	}
 
