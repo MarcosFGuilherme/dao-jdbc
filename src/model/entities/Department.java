@@ -2,6 +2,8 @@ package model.entities;
 
 import java.io.Serializable;
 
+import general.Utility;
+
 public class Department implements Serializable {
 	
 	private static final long serialVersionUID = 1L;
@@ -59,7 +61,8 @@ public class Department implements Serializable {
 
 	@Override
 	public String toString() {
-		return "Department [id=" + id + ", name=" + name + "]";
+		String dep = Utility.stringFix(" " + id, 10, " ") +  Utility.stringFix("  " + name, 30, " " );
+		return dep;
 	}
 
 }
